@@ -1,0 +1,44 @@
+{
+    "coord": {
+      "lon": -74.006,
+      "lat": 40.7143
+    },
+    "weather": [
+      {
+        "id": 600,
+        "main": "Snow",
+        "description": "light snow",
+        "icon": "13n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 272.12,
+      "feels_like": 272.12,
+      "temp_min": 269.99,
+      "temp_max": 273.99,
+      "pressure": 1009,
+      "humidity": 83
+    },
+    "visibility": 2816,
+    "wind": {
+      "speed": 0.45,
+      "deg": 158,
+      "gust": 2.24
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1641539411,
+    "sys": {
+      "type": 2,
+      "id": 2039034,
+      "country": "US",
+      "sunrise": 1641557998,
+      "sunset": 1641591856
+    },
+    "timezone": -18000,
+    "id": 5128581,
+    "name": "New York",
+    "cod": 200
+  }
