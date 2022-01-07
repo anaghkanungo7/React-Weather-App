@@ -118,7 +118,7 @@ const WeatherInfoCard = ({weather}) => {
             <Location>{`${weather?.name}, ${weather?.sys?.country}`}</Location>
             <WeatherInfoLabel>Weather info</WeatherInfoLabel>
             <WeatherInfoContainer>
-                <WeatherInfoComponent name={isDay ? "Sunset" : "Sunrise" }  value={`${getTime(weather?.sys[isDay ? "sunrise" : "sunset"])}`}/>
+                <WeatherInfoComponent name={isDay ? "Sunset" : "Sunrise" }  value={`${getTime(weather?.sys[isDay ? "sunset" : "sunrise"])}`}/>
                 <WeatherInfoComponent name="Humidity" value={weather?.main?.humidity}/>
                 <WeatherInfoComponent name="Wind" value={weather?.wind?.speed}/>
                 <WeatherInfoComponent name="Pressure" value={weather?.main?.pressure}/>
