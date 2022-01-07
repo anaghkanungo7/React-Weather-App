@@ -80,7 +80,7 @@ const App = () => {
 
   return (
     <Container>
-      <Label>RapidWeather - React Weather App</Label>
+      <Label>RapidWeather - React Weather App by Anagh Kanungo</Label>
       {weather? (
          <WeatherInfoCard weather={weather}>Weather Component</WeatherInfoCard>
       ) : (<CityCard updateCity={updateCity} fetchWeather={fetchWeather}>City Component</CityCard>)
