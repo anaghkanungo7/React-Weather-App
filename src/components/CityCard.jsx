@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { WeatherIcons } from "../App";
 
 const WeatherLogo = styled.img`
 width: 100px;
@@ -36,7 +37,7 @@ margin: 10px auto;
 const CityCard = ({updateCity, fetchWeather}) => {
     return (
         <div>
-            <WeatherLogo src="../../public/icons/perfect-day.svg"/>
+            <WeatherLogo src={WeatherIcons['04d']}/>
             <ChooseCityLabel>Enter city name</ChooseCityLabel>
             <SearchBox onSubmit={fetchWeather}>
                 <input type="text" name="" id="" placeholder="city" 
